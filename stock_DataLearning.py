@@ -106,5 +106,5 @@ print("w1:",w1,", w2:",w2,", ")
 # saver = tf.compat.v1.train.Saver([w1,w2,w3,w4,b])
 # saver.save(sess, save_file)
 
-#step: 10000(10000개 데이터 10000번 회귀분석 = 총 10억회)
+#step: 10000(13000개 데이터 10000번 회귀분석 = 총 13억회)
 #Cost: 0.07228681
