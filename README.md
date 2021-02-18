@@ -1,6 +1,7 @@
 # P.project2
 ABC analysis based on Machine Learning and Stock management
 
+PPT : https://www.miricanvas.com/v/196k41
 
 **********************************************************
 ABC Analysis based on Machine Learning
