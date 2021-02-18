@@ -15,7 +15,7 @@ I/O Controll
 
 **********************************************************
 Weight&Bias
-checkpoint
-trained_weight.ckpt.data-00000-of-00001
-trained_weight.ckpt.index
-trained_weight.ckpt.meta
+1. checkpoint
+2. trained_weight.ckpt.data-00000-of-00001
+3. trained_weight.ckpt.index
+4. trained_weight.ckpt.meta
