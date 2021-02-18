@@ -6,12 +6,12 @@
 
 """
 """
-product_list = 입/출고 log(있음)
-product_status = 현 재고관리(있음)
-stock_list = 일일 재고 분석 데이터터(있음)
-stock_classifier = 재고 학습용 데이터(있음)
-stock_test = 재고 학습 테스트용 데이터(있음)
-class_status = 재고 등급 현황 데이(있음)
+product_list = 입/출고 log
+product_status = 현 재고관리
+stock_list = 일일 재고 분석 데이터터
+stock_classifier = 재고 학습용 데이터
+stock_test = 재고 학습 테스트용 데이터
+class_status = 재고 등급 현황 데이
 
 """
 import tensorflow as tf
@@ -65,7 +65,7 @@ def classifier(loading,prepare_load,income,term_load,product):
     return loading,prepare_load,income,str(term_load),str(product)
 
 
-choice = input("1. stock management, 2. stock controlling :")
+choice = input("1. stock classifying, 2. stock controlling :")
 
 if choice == "1":
     date = datetime.date.today()
